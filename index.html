@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aulas de Preparação | Imersão: Do Zero ao Êxito nas Ações Acidentárias</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <img src="resources-reference/wp-content/uploads/2026/06/logo-png.png" alt="Do Zero ao Êxito nas Ações Acidentárias">
+      </a>
+      <span class="header-badge">Área Exclusiva de Inscritos</span>
+    </div>
+  </header>
+
+  <!-- ── HERO + EVENT ──────────────────────────────────── -->
+  <section class="hero-event">
+    <div class="hero-event-bg"></div>
+    <div class="hero-event-inner">
+
+      <!-- Left: welcome + countdown -->
+      <div class="hero-event-left">
+        <div class="live-badge">
+          <span class="live-dot"></span>
+          Área exclusiva de inscritos
+        </div>
+
+        <h1 class="hero-event-title">
+          Suas aulas de<br>
+          preparação estão<br>
+          <span class="gradient-text">aqui para você.</span>
+        </h1>
+        <p class="hero-event-sub">
+          Assista às aulas abaixo e chegue na imersão com a base completa.
+        </p>
+
+        <div class="countdown-wrapper">
+          <p class="countdown-label">A imersão começa em</p>
+          <div class="countdown" id="countdown">
+            <div class="countdown-block">
+              <span class="countdown-num" id="cd-days">--</span>
+              <span class="countdown-unit">dias</span>
+            </div>
+            <span class="countdown-sep">:</span>
+            <div class="countdown-block">
+              <span class="countdown-num" id="cd-hours">--</span>
+              <span class="countdown-unit">horas</span>
+            </div>
+            <span class="countdown-sep">:</span>
+            <div class="countdown-block">
+              <span class="countdown-num" id="cd-mins">--</span>
+              <span class="countdown-unit">min</span>
+            </div>
+            <span class="countdown-sep">:</span>
+            <div class="countdown-block">
+              <span class="countdown-num" id="cd-secs">--</span>
+              <span class="countdown-unit">seg</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: event days + calendar buttons -->
+      <div class="hero-event-right">
+        <div class="agenda-header">
+          <img src="assets/icons/google-calendar.svg" alt="Google Agenda" class="gcal-icon">
+          <div>
+            <p class="agenda-label">Salve no Google Agenda</p>
+            <p class="agenda-sublabel">Clique em um dos dias abaixo para adicionar à sua agenda</p>
+          </div>
+        </div>
+
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Imers%C3%A3o%3A+Do+Zero+ao+%C3%8Axito+-+Dia+1&dates=20260728T230000Z%2F20260729T000000Z&details=Aula+ao+vivo+com+Dr.+Felipe+Scherer+no+YouTube.&location=YouTube+-+felipeschereradv.com.br"
+           target="_blank" rel="noopener" class="agenda-card">
+          <div class="agenda-card-date">
+            <span class="agenda-day-num">28</span>
+            <span class="agenda-month">JUL</span>
+          </div>
+          <div class="agenda-card-info">
+            <span class="agenda-card-title">Dia 01 da Imersão</span>
+            <span class="agenda-card-time">Segunda-feira · 20h00</span>
+          </div>
+          <div class="agenda-card-cta">
+            <img src="assets/icons/google-calendar.svg" alt="" class="gcal-icon-sm">
+            <span>Adicionar</span>
+          </div>
+        </a>
+
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Imers%C3%A3o%3A+Do+Zero+ao+%C3%8Axito+-+Dia+2&dates=20260729T230000Z%2F20260730T000000Z&details=Aula+ao+vivo+com+Dr.+Felipe+Scherer+no+YouTube.&location=YouTube+-+felipeschereradv.com.br"
+           target="_blank" rel="noopener" class="agenda-card">
+          <div class="agenda-card-date">
+            <span class="agenda-day-num">29</span>
+            <span class="agenda-month">JUL</span>
+          </div>
+          <div class="agenda-card-info">
+            <span class="agenda-card-title">Dia 02 da Imersão</span>
+            <span class="agenda-card-time">Terça-feira · 20h00</span>
+          </div>
+          <div class="agenda-card-cta">
+            <img src="assets/icons/google-calendar.svg" alt="" class="gcal-icon-sm">
+            <span>Adicionar</span>
+          </div>
+        </a>
+
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Imers%C3%A3o%3A+Do+Zero+ao+%C3%8Axito+-+Dia+3&dates=20260730T230000Z%2F20260731T000000Z&details=Aula+ao+vivo+com+Dr.+Felipe+Scherer+no+YouTube.&location=YouTube+-+felipeschereradv.com.br"
+           target="_blank" rel="noopener" class="agenda-card">
+          <div class="agenda-card-date">
+            <span class="agenda-day-num">30</span>
+            <span class="agenda-month">JUL</span>
+          </div>
+          <div class="agenda-card-info">
+            <span class="agenda-card-title">Dia 03 da Imersão</span>
+            <span class="agenda-card-time">Quarta-feira · 20h00</span>
+          </div>
+          <div class="agenda-card-cta">
+            <img src="assets/icons/google-calendar.svg" alt="" class="gcal-icon-sm">
+            <span>Adicionar</span>
+          </div>
+        </a>
+
+        <p class="agenda-note">
+          <svg viewBox="0 0 24 24" fill="none" style="width:13px;height:13px;flex-shrink:0"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z" fill="currentColor"/></svg>
+          Ao vivo no YouTube · Gratuito
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── AULAS DE PREPARAÇÃO ───────────────────────────── -->
+  <section class="section" style="background: var(--bg-dark); padding-top: 48px; padding-bottom: 56px;">
+    <div class="section-inner">
+      <div class="embeds-header">
+        <div>
+          <p class="section-label">4 aulas · acesso gratuito</p>
+          <h2 class="section-title" style="font-size:clamp(20px,2.5vw,28px); margin-bottom:4px;">Escolha por onde quer <span class="gradient-text">começar</span></h2>
+        </div>
+        <p class="section-sub" style="font-size:14px; max-width:340px; text-align:right;">Assista na ordem que preferir e chegue preparado para a imersão.</p>
+      </div>
+
+      <div class="embeds-grid">
+
+        <!-- AULA 1 -->
+        <div class="embed-block">
+          <div class="embed-label">
+            <span class="embed-num">01</span>
+            <h3 class="embed-title">Pensão Mensal Vitalícia</h3>
+          </div>
+          <div class="video-wrapper">
+            <!-- ✏️ Substitua pelo ID real: src="https://www.youtube.com/embed/SEU_ID" -->
+            <iframe src="https://www.youtube.com/embed/RGHdbmLsVbg" title="Aula 01 – Pensão Mensal Vitalícia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- AULA 2 -->
+        <div class="embed-block">
+          <div class="embed-label">
+            <span class="embed-num">02</span>
+            <h3 class="embed-title">Como estimar o percentual de redução da capacidade laboral</h3>
+          </div>
+          <div class="video-wrapper">
+            <!-- ✏️ Substitua pelo ID real: src="https://www.youtube.com/embed/SEU_ID" -->
+            <iframe src="https://www.youtube.com/embed/jwqgyolX8F4" title="Aula 02 – Como estimar o percentual de redução da capacidade laboral" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- AULA 3 -->
+        <div class="embed-block">
+          <div class="embed-label">
+            <span class="embed-num">03</span>
+            <h3 class="embed-title">Como estimar o valor da pensão</h3>
+          </div>
+          <div class="video-wrapper">
+            <!-- ✏️ Substitua pelo ID real: src="https://www.youtube.com/embed/SEU_ID" -->
+            <iframe src="https://www.youtube.com/embed/MzWuh99tWCA" title="Aula 03 – Como estimar o valor da pensão" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- AULA 4 -->
+        <div class="embed-block">
+          <div class="embed-label">
+            <span class="embed-num">04</span>
+            <h3 class="embed-title">Reduzindo o risco da limitação da condenação</h3>
+          </div>
+          <div class="video-wrapper">
+            <!-- ✏️ Substitua pelo ID real: src="https://www.youtube.com/embed/SEU_ID" -->
+            <iframe src="https://www.youtube.com/embed/c-1YrYgH_yE" title="Aula 04 – Reduzindo o risco da limitação da condenação" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── AULAS PRINCIPAIS ──────────────────────────────── -->
+  <section class="section" style="background: var(--bg-deep); padding-top: 56px; padding-bottom: 56px;">
+    <div class="section-inner">
+      <p class="section-label">28, 29 e 30 de julho · 20h00 · Ao vivo no YouTube</p>
+      <h2 class="section-title">O que você vai ver na <span class="gradient-text">imersão ao vivo</span></h2>
+      <p class="section-sub">Ative o lembrete de cada noite e não perca nenhum conteúdo.</p>
+
+      <div class="lessons-grid" style="margin-top:32px;">
+
+        <!-- DIA 1 -->
+        <div class="lesson-card" style="cursor:default;">
+          <div class="lesson-card-thumb">
+            <img src="resources-reference/wp-content/uploads/2026/06/img-01.webp" alt="Aula ao vivo – Dia 1">
+          </div>
+          <div class="lesson-card-body">
+            <span class="lesson-number" style="color:var(--gold-light);">Aula 1 · 28 de Julho, às 20h</span>
+            <h3 class="lesson-card-title">Onde nascem as grandes ações acidentárias</h3>
+            <p class="lesson-card-desc">
+              Conceitos fundamentais, como identificar casos com alto potencial econômico e o erro que faz advogados perderem excelentes oportunidades.
+            </p>
+            <div class="lesson-card-footer">
+              <a
+                href="https://www.youtube.com/watch?v=T8EfaFKu7Rs"
+                target="_blank" rel="noopener"
+                class="btn btn-youtube" style="width:100%; justify-content:center; font-size:13px; padding:11px 20px;">
+                <svg viewBox="0 0 24 24" fill="currentColor" style="width:15px;height:15px;flex-shrink:0"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/></svg>
+                Definir lembrete no YouTube — Dia 1
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIA 2 -->
+        <div class="lesson-card" style="cursor:default;">
+          <div class="lesson-card-thumb">
+            <img src="resources-reference/wp-content/uploads/2026/06/img02.webp" alt="Aula ao vivo – Dia 2">
+          </div>
+          <div class="lesson-card-body">
+            <span class="lesson-number" style="color:var(--gold-light);">Aula 2 · 29 de Julho, às 20h</span>
+            <h3 class="lesson-card-title">Como construir teses vencedoras nas ações acidentárias</h3>
+            <p class="lesson-card-desc">
+              Ferramentas técnico-científicas, nexo causal, concausalidade e a metodologia para vencer diante da perícia e da estratégia defensiva da reclamada.
+            </p>
+            <div class="lesson-card-footer">
+              <a
+                href="https://www.youtube.com/watch?v=vvZFq3jrg9c"
+                target="_blank" rel="noopener"
+                class="btn btn-youtube" style="width:100%; justify-content:center; font-size:13px; padding:11px 20px;">
+                <svg viewBox="0 0 24 24" fill="currentColor" style="width:15px;height:15px;flex-shrink:0"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/></svg>
+                Definir lembrete no YouTube — Dia 2
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIA 3 -->
+        <div class="lesson-card" style="cursor:default;">
+          <div class="lesson-card-thumb">
+            <img src="resources-reference/wp-content/uploads/2026/06/img03.webp" alt="Aula ao vivo – Dia 3">
+          </div>
+          <div class="lesson-card-body">
+            <span class="lesson-number" style="color:var(--gold-light);">Aula 3 · 30 de Julho, às 20h</span>
+            <h3 class="lesson-card-title">Como impugnar laudos periciais na prática</h3>
+            <p class="lesson-card-desc">
+              Análise de casos reais, identificação de fragilidades em laudos desfavoráveis e elaboração ao vivo de uma impugnação pericial completa.
+            </p>
+            <div class="lesson-card-footer">
+              <a
+                href="https://www.youtube.com/watch?v=3yObKHcvuIE"
+                target="_blank" rel="noopener"
+                class="btn btn-youtube" style="width:100%; justify-content:center; font-size:13px; padding:11px 20px;">
+                <svg viewBox="0 0 24 24" fill="currentColor" style="width:15px;height:15px;flex-shrink:0"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/></svg>
+                Definir lembrete no YouTube — Dia 3
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ── PROFESSOR ─────────────────────────────────────── -->
+  <section class="section" style="background: #151515; padding-top: 56px; padding-bottom: 56px;">
+    <div class="section-inner">
+      <div style="display:flex; gap:48px; align-items:center; flex-wrap:wrap;">
+        <img
+          src="resources-reference/wp-content/uploads/2026/06/eloe-web-1.webp"
+          alt="Dr. Felipe Scherer"
+          style="width:200px; border-radius:var(--radius-md); border: 1px solid var(--border); flex-shrink:0; object-fit:cover;">
+        <div style="flex:1; min-width:260px;">
+          <p class="section-label">Seu professor</p>
+          <h2 class="section-title" style="margin-bottom:16px;">Dr. <span class="gradient-text">Felipe Scherer</span></h2>
+          <p style="font-size:15px; color:var(--text-muted); line-height:1.7; margin-bottom:12px;">
+            Advogado especialista em Direito do Trabalho, pós-graduado em Direito e Processo do Trabalho e sócio-proprietário do escritório FOLS Advocacia.
+          </p>
+          <p style="font-size:15px; color:var(--text-muted); line-height:1.7;">
+            Com <strong style="color:#fff;">13 anos de experiência</strong>, atuou em mais de <strong style="color:#fff;">3.100 processos</strong> e obteve mais de <strong style="color:#fff;">R$ 10 milhões de faturamento</strong>. Autor do curso <em>"Prática em Acidente de Trabalho 2.0"</em> e professor de mais de 1.200 alunos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COUNTDOWN FINAL ──────────────────────────────────── -->
+  <section style="background:var(--bg-deep); padding:56px 24px; text-align:center; border-top:1px solid var(--border);">
+    <div style="max-width:720px; margin:0 auto;">
+      <p class="section-label" style="margin-bottom:8px;">A imersão começa em</p>
+      <p class="gradient-text" style="font-size:clamp(18px,3vw,26px); font-weight:700; margin-bottom:32px; font-family:var(--font-main);">28 de Julho · 20h00 · Ao vivo no YouTube</p>
+      <div class="countdown" style="justify-content:center;">
+        <div class="countdown-block">
+          <span class="countdown-num" id="cd2-days">--</span>
+          <span class="countdown-label">dias</span>
+        </div>
+        <div class="countdown-block">
+          <span class="countdown-num" id="cd2-hours">--</span>
+          <span class="countdown-label">horas</span>
+        </div>
+        <div class="countdown-block">
+          <span class="countdown-num" id="cd2-mins">--</span>
+          <span class="countdown-label">min</span>
+        </div>
+        <div class="countdown-block">
+          <span class="countdown-num" id="cd2-secs">--</span>
+          <span class="countdown-label">seg</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="resources-reference/wp-content/uploads/2026/06/logo-png.png" alt="Do Zero ao Êxito">
+      </div>
+      <p class="footer-text">
+        Imersão: Do Zero ao Êxito nas Ações Acidentárias<br>
+        28, 29 e 30 de julho de 2026 · 20h00 · Ao vivo no YouTube
+      </p>
+      <p class="footer-disclaimer">
+        Área exclusiva para inscritos. Este conteúdo é de acesso gratuito e faz parte da preparação para a imersão. © 2026 FOLS Advocacia — Dr. Felipe Scherer. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    var target = new Date('2026-07-28T23:00:00Z').getTime();
+    function pad(n) { return n < 10 ? '0' + n : '' + n; }
+    function tick() {
+      var diff = target - Date.now();
+      if (diff <= 0) {
+        document.getElementById('countdown').innerHTML = '<span style="color:var(--peach);font-weight:700;">A imersão está acontecendo agora!</span>';
+        document.getElementById('cd2-days').textContent = '00';
+        document.getElementById('cd2-hours').textContent = '00';
+        document.getElementById('cd2-mins').textContent = '00';
+        document.getElementById('cd2-secs').textContent = '00';
+        return;
+      }
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      document.getElementById('cd-days').textContent  = pad(d);
+      document.getElementById('cd-hours').textContent = pad(h);
+      document.getElementById('cd-mins').textContent  = pad(m);
+      document.getElementById('cd-secs').textContent  = pad(s);
+      document.getElementById('cd2-days').textContent  = pad(d);
+      document.getElementById('cd2-hours').textContent = pad(h);
+      document.getElementById('cd2-mins').textContent  = pad(m);
+      document.getElementById('cd2-secs').textContent  = pad(s);
+    }
+    tick();
+    setInterval(tick, 1000);
+  </script>
+
+</body>
+</html>
