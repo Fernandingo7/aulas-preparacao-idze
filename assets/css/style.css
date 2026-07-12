@@ -1005,6 +1005,15 @@ ul { list-style: none; }
     padding: 48px 24px;
   }
   .hero-event-right { max-width: 480px; }
+  .hero-event-left {
+    align-items: center;
+    text-align: center;
+  }
+  .hero-event-title { text-align: center; }
+  .hero-event-sub { text-align: center; }
+  .countdown-wrapper { align-items: center; }
+  .countdown { justify-content: center; }
+  .hero-event-right { margin: 0 auto; }
 }
 
 @media (max-width: 768px) {
