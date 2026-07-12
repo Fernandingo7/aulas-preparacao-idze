@@ -1021,7 +1021,7 @@ ul { list-style: none; }
 @media (max-width: 768px) {
   .lessons-grid { grid-template-columns: 1fr; }
   .lesson-nav { flex-direction: column; align-items: flex-start; }
-  .header-inner { flex-wrap: wrap; gap: 8px; }
+  .header-inner { flex-wrap: wrap; gap: 8px; justify-content: center; }
   .header-badge { font-size: 9px; }
   .countdown-block { min-width: 52px; padding: 8px 10px; }
 }
